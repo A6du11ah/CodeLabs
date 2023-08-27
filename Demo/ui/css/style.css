@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+
+    background: #ECE8DD;
+}
+
+#header-container {
+    height: 5rem;
+    background: #212d3e;
+
+    display: flex;
+
+    box-shadow: 0 0.5rem 1rem 0 #9DB2BF;
+}
+
+#header-text {
+    width: 12.5rem;
+    min-width: 12.5rem;
+
+    font-family: "Audiowide";
+    font-size: 2rem;
+    color: #FFD369;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-button-container {
+    width: calc(100% - 12.5rem);
+
+    padding-right: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#header-session-button {
+    height: 3.5rem;
+    width: 3.5rem;
+
+    background: #26354a;
+
+    border: 0.2rem #26354a outset;
+    border-radius: 1.25rem;
+
+    transition: all 0.4s ease;
+}
+
+#header-session-button i {
+    font-size: 1.5rem;
+    color: #579BB1;
+
+    transition: all 0.4s ease;
+}
+
+#header-session-button:hover {
+    background: #2f435c;
+}
+
+#header-session-button:hover i {
+    color: #FFD369;
+}
+
+#main-container {
+    height: 50rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-title {
+    width: 50rem;
+    height: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #9DB2BF;
+
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 0.5rem 0.5rem 1rem 0 #9DB2BF;
+}
+
+#main-title p {
+    font-size: 1.25rem;
+}
+
+#main-end {
+    height: 1.25rem;
+    width: 50rem;
+
+    background: #91a5b1;
+
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem 0 #9DB2BF;
+}
+
+#editor-container {
+    height: 40rem;
+    width: 50rem;
+
+    box-shadow: 0.5rem 0.5rem 1rem 0 #9DB2BF;
+}
