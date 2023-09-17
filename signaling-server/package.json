@@ -2,10 +2,11 @@
   "name": "signaling-server",
   "version": "1.0.0",
   "description": "",
-  "main": "signaling-server.mjs",
+  "main": "signaling-server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node signaling-server.mjs"
+    "start": "node signaling-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Abdullah",
   "license": "MIT",
