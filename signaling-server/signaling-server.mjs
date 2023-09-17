@@ -11,7 +11,7 @@ const wsReadyStateClosed = 3 // eslint-disable-line
 
 const pingTimeout = 30000
 
-const port = process.env.PORT || 8901
+const port = process.env.PORT || 4444
 // @ts-ignore
 const wss = new ws.Server({ noServer: true })
 
