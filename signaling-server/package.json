@@ -2,14 +2,20 @@
   "name": "signaling-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "signaling-server.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node signaling-server.mjs"
   },
   "author": "Abdullah",
   "license": "MIT",
   "dependencies": {
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^3.0.1",
     "y-webrtc": "^10.2.5",
     "yjs": "^13.6.7"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
