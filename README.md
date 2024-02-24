@@ -8,20 +8,12 @@ This project is an innovative online coding education platform designed to addre
 - **User Management and Roles:** Allows user registration, login, and profile management, with differentiation between teachers, students, and moderators.
 - **Room Creation and Customization:** Easy room creation with customizable settings such as access, privacy, etc., along with dynamic room assignment and management.
 - **IDE Functionality:** Offers a file explorer for managing project files, code editor with syntax highlighting and autocompletion, and real-time collaboration with version history.
+- **Real-time Collaboration:** Enables simultaneous editing and collaboration on code and documents in real-time, enhancing teamwork and productivity.
 - **Communication Tools:** Includes in-room chat for text communication, real-time audio and video communication for direct interaction, and file sharing within the chat interface.
-- **Whiteboard and Visual Tools:** Features a collaborative whiteboard for visual explanations, drawing tools, shapes, and text for effective teaching.
 - **Analytics and Progress Tracking:** Provides teacher access to student progress and coding activity, along with visual representation of coding milestones and accomplishments.
 
-## Installation
-- Clone the repository to your local machine.
-- Install dependencies using `npm install`.
-- Run the application using `npm start`.
-
-## Usage
-- Register/login to the platform.
-- Create or join coding rooms according to your role (teacher, student, moderator).
-- Utilize IDE functionality for coding tasks, communicate with other participants, and utilize visual tools for effective teaching.
-- Track progress and coding activity using the analytics and progress tracking features.
+## Demonstration
+Coming soon!
 
 ## Future Vision
 - Integration of AI-driven assistance for code suggestions, auto-correction, and debugging.
