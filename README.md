@@ -13,7 +13,7 @@ This project is an innovative online coding education platform designed to addre
 - **Analytics and Progress Tracking:** Provides teacher access to student progress and coding activity, along with visual representation of coding milestones and accomplishments.
 
 ## Demonstration
-Coming soon!
+[![Watch the video](https://img.youtube.com/vi/4mvR2jQD7w8/hqdefault.jpg)](https://www.youtube.com/embed/4mvR2jQD7w8)
 
 ## Future Vision
 - Integration of AI-driven assistance for code suggestions, auto-correction, and debugging.
