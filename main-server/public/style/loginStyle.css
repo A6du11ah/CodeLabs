@@ -1,0 +1,127 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    user-select: none;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(#19A7CE, whitesmoke);
+}
+
+.title {
+    font-family: "Audiowide";
+    font-size: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title img {
+    height: 10rem;
+    width: 10rem;
+
+    margin-bottom: 0.5rem;
+}
+
+.title p {
+    margin-bottom: 1rem;
+}
+
+.title p span:nth-of-type(1) {
+    color: whitesmoke;
+}
+
+.title p span:nth-of-type(2) {
+    color: #ffd575;
+}
+
+.form {
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    background: #ffffff;
+}
+
+header {
+    font-size: 25px;
+    font-weight: 600;
+    color: #212d3e;
+    text-align: center;
+}
+
+.form .field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.form a {
+    color: #0171d3;
+    text-decoration: none;
+}
+
+.media-options a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.media-options a:hover {
+    background-color: #f1f1f1;
+}
+
+img.google-img {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+img.google-img {
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+
+a.google {
+    border: 1px solid #CACACA;
+}
+
+a.google span {
+    font-weight: 1000;
+    opacity: 1.5;
+    color: #212d3e;
+}
+
+@media screen and (max-width: 400px) {
+    .form {
+        padding: 20px 10px;
+    }
+
+}
